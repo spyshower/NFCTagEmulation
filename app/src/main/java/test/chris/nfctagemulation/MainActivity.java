@@ -59,9 +59,9 @@ public class MainActivity extends AppCompatActivity {
 				Intent ndefIntent = createIntent( ndefMsg );
 				startActivity( ndefIntent );
 				finish();
-				h.postDelayed(this, 3000);
+				h.postDelayed(this, 7000);
 			}
-		}, 3000);
+		}, 7000);
 		
 		
 	}
